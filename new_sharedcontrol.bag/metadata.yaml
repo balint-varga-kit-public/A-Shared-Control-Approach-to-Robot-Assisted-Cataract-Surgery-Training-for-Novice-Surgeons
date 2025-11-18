@@ -1,0 +1,56 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 111692972571
+  starting_time:
+    nanoseconds_since_epoch: 1749219264642368461
+  message_count: 23307
+  topics_with_message_count:
+    - topic_metadata:
+        name: /master/state
+        type: omni_msgs/msg/HIDState
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3466
+    - topic_metadata:
+        name: /mode_from_motion_rec
+        type: std_msgs/msg/String
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 11484
+    - topic_metadata:
+        name: /plot/study/start_point
+        type: omni_msgs/msg/StartPoint
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 24
+    - topic_metadata:
+        name: /force_feedback/virtFix
+        type: geometry_msgs/msg/Vector3Stamped
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 1655
+    - topic_metadata:
+        name: /master/feedback
+        type: omni_msgs/msg/HIDFeedback
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3351
+    - topic_metadata:
+        name: /slave/state
+        type: omni_msgs/msg/HIDState
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3327
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - 20250606_161413-new_sc.bag_0.db3
+  files:
+    - path: 20250606_161413-new_sc.bag_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1749219264642368461
+      duration:
+        nanoseconds: 111692972571
+      message_count: 23307
